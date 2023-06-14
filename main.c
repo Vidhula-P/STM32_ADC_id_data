@@ -135,6 +135,7 @@ int main(void)
 	  output = AD7708_read_data();
     /* USER CODE BEGIN 3 */
   }
+AD7708_deinitilaize();
   /* USER CODE END 3 */
 }
 
